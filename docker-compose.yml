@@ -2,7 +2,7 @@ services:
   cricket-scoreboard:
     build: .
     ports:
-      - "8000:8000"
+      - "9090:8000"
     environment:
       - PYTHONUNBUFFERED=1
       - PYTHONPATH=/app
