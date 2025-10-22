@@ -68,20 +68,17 @@ class MatchService:
             # Fetch ALL posts first
             all_posts = await self.fetcher.fetch_all_matches_with_retry()
             matches = []
-            
-            print(f"DEBUG: Fetched {len(all_posts)} total posts from Reddit")
-            
+
             for i, post in enumerate(all_posts):
                 post_data = post['data']
                 
                 # Debug info for each post
                 title = post_data.get('title', 'No title')
                 subreddit = post_data.get('subreddit', '').lower()
-                flair = post_data.get('link_flair_text', '')
                 edited = post_data.get('edited')
                 has_selftext_html = 'selftext_html' in post_data and bool(post_data['selftext_html'])
                 
-                # ALWAYS filter by subreddit=cricket and link_flair_text="Match Thread"
+                # ALWAYS filter by subreddit=cricket
                 if subreddit != 'cricket':
                     continue
                             
