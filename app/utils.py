@@ -81,57 +81,33 @@ class MatchService:
                 edited = post_data.get('edited')
                 has_selftext_html = 'selftext_html' in post_data and bool(post_data['selftext_html'])
                 
-                print(f"DEBUG Post {i+1}:")
-                print(f"  Title: {title}")
-                print(f"  Subreddit: {subreddit}, Flair: {flair}")
-                print(f"  Edited: {edited}")
-                print(f"  Has selftext_html: {has_selftext_html}")
-                
                 # ALWAYS filter by subreddit=cricket and link_flair_text="Match Thread"
                 if subreddit != 'cricket':
-                    print(f"  -> SKIP: Wrong subreddit")
                     continue
-                    
-                if flair != 'Match Thread':
-                    print(f"  -> SKIP: Wrong flair")
-                    continue
-                
-                print(f"  -> PASSED subreddit and flair filters")
-                
+                            
                 # Apply date filtering if requested - using 'edited' field (Unix timestamp)
                 if today_only:
                     is_today = self._is_from_today(edited)
-                    print(f"  Today check: {is_today}")
                     if not is_today:
-                        print(f"  -> SKIP: Not from today")
                         continue
                 
                 if last_days:
                     is_recent = self._is_from_last_n_days(edited, last_days)
-                    print(f"  Recent check (last {last_days} days): {is_recent}")
                     if not is_recent:
-                        print(f"  -> SKIP: Not from last {last_days} days")
                         continue
                 
                 if 'selftext_html' in post_data and post_data['selftext_html']:
-                    print(f"  -> PARSING match data")
                     try:
                         match = self.parser.parse_match(
                             post_data['selftext_html'], 
                             post_data
                         )
                         matches.append(match)
-                        print(f"  -> ADDED to matches list (total: {len(matches)})")
                     except Exception as e:
-                        print(f"  -> ERROR parsing match: {e}")
                         continue
                 else:
                     print(f"  -> SKIP: No selftext_html content")
-                
-                print("")  # Empty line for readability
-            
-            # Apply limit AFTER filtering all records
-            print(f"DEBUG: Before limit - {len(matches)} matches found")
+                            
             if limit > 0:
                 matches = matches[:limit]
                 print(f"DEBUG: After limit - {len(matches)} matches returned")
