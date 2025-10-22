@@ -39,29 +39,7 @@ class MatchService:
     def __init__(self):
         self.fetcher = RedditFetcher()
         self.parser = CricketMatchParser()
-    
-    def _is_from_today(self, edited_timestamp: Any) -> bool:
-        """Check if edited timestamp is from today (date only, ignore time)"""
-        # If edited_timestamp is None or 0, it means the post was never edited
-        if not edited_timestamp:
-            return False
-            
-        # Convert to datetime (edited is a Unix timestamp)
-        edited_dt = datetime.fromtimestamp(edited_timestamp, tz=timezone.utc)
-        today = datetime.now(timezone.utc).date()
-        return edited_dt.date() == today
-    
-    def _is_from_last_n_days(self, edited_timestamp: Any, days: int) -> bool:
-        """Check if edited timestamp is from the last N days (date only)"""
-        # If edited_timestamp is None or 0, it means the post was never edited
-        if not edited_timestamp:
-            return False
-            
-        # Convert to datetime and compare dates only
-        edited_dt = datetime.fromtimestamp(edited_timestamp, tz=timezone.utc)
-        cutoff_date = (datetime.now(timezone.utc) - timedelta(days=days)).date()
-        return edited_dt.date() >= cutoff_date
-    
+
     async def get_matches(self, limit: int = 10, today_only: bool = False, last_days: Optional[int] = None) -> List[CricketMatch]:
         """Get parsed cricket matches with optional date filtering"""
         try:
@@ -81,17 +59,6 @@ class MatchService:
                 # ALWAYS filter by subreddit=cricket
                 if subreddit != 'cricket':
                     continue
-                            
-                # Apply date filtering if requested - using 'edited' field (Unix timestamp)
-                if today_only:
-                    is_today = self._is_from_today(edited)
-                    if not is_today:
-                        continue
-                
-                if last_days:
-                    is_recent = self._is_from_last_n_days(edited, last_days)
-                    if not is_recent:
-                        continue
                 
                 if 'selftext_html' in post_data and post_data['selftext_html']:
                     try:
@@ -120,11 +87,3 @@ class MatchService:
     async def get_today_matches(self, limit: int = 10) -> List[CricketMatch]:
         """Get only today's cricket matches"""
         return await self.get_matches(limit=limit, today_only=True)
-    
-    async def get_recent_matches(self, days: int = 7, limit: int = 10) -> List[CricketMatch]:
-        """Get matches from the last N days"""
-        return await self.get_matches(limit=limit, last_days=days)
-    
-    async def get_all_cricket_matches(self) -> List[CricketMatch]:
-        """Get ALL cricket matches without any filtering"""
-        return await self.get_matches(limit=0)  # limit=0 means no limit
