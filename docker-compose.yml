@@ -1,3 +1,5 @@
+version: "3.9"
+
 services:
   cricket-scoreboard:
     build: .
@@ -6,8 +8,6 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
       - PYTHONPATH=/app
-    volumes:
-      - ./app:/app
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
