@@ -1,7 +1,5 @@
-version: "3.9"
-
 services:
-  cricket-scoreboard:
+  scoreboard:
     build: .
     ports:
       - "9090:8000"
@@ -16,8 +14,9 @@ services:
       retries: 3
       start_period: 40s
     labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.score.rule=Host(`score.nirvanahome.dev`)"
-      - "traefik.http.routers.score.entrypoints=websecure"
-      - "traefik.http.services.score.loadbalancer.server.port=8000"
-      - "traefik.http.routers.score.tls.certresolver=letsencrypt"
+      - traefik.enable=true
+      - traefik.http.routers.scoreboard.rule=Host(`scoreboard.nirvanahome.dev`)
+      - traefik.http.routers.scoreboard.entrypoints=websecure
+      - traefik.http.services.scoreboard.loadbalancer.server.port=8000
+      - traefik.http.routers.scoreboard.tls.certresolver=letsencrypt
+
