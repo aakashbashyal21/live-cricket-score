@@ -174,7 +174,3 @@ async def not_found_handler(request, exc):
         status_code=404,
         content={"detail": "Resource not found"}
     )
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host=API_HOST, port=API_PORT, reload=True)
