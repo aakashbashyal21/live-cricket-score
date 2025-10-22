@@ -19,4 +19,5 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.score.rule=Host(`score.nirvanahome.dev`)"
       - "traefik.http.routers.score.entrypoints=websecure"
+      - "traefik.http.services.score.loadbalancer.server.port=8000"
       - "traefik.http.routers.score.tls.certresolver=letsencrypt"
