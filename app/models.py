@@ -34,19 +34,23 @@ class CricketMatch(BaseModel):
     reddit_id: Optional[str] = None
     subreddit: Optional[str] = None
     link_flair_text: Optional[str] = None
-    
+
+    # 🆕 Added fields
+    cricinfo_url: Optional[str] = None
+    match_id: Optional[str] = None
+
     @property
     def created_datetime(self) -> Optional[datetime]:
         """Convert created_utc to datetime object"""
         if self.created_utc:
             return datetime.fromtimestamp(self.created_utc, tz=timezone.utc)
         return None
-    
+
     def is_from_today(self) -> bool:
         """Check if the match was created today"""
         if not self.created_datetime:
             return False
-        
+
         today = datetime.now(timezone.utc).date()
         return self.created_datetime.date() == today
 

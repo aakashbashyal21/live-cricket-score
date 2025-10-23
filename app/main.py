@@ -44,18 +44,29 @@ async def health_check():
     return HealthCheck(status="healthy", timestamp=datetime.now())
 
 @app.get("/matches/today", response_model=MatchesResponse)
-async def get_today_matches(
-    limit: int = Query(default=10, ge=1, le=100, description="Number of today's matches to fetch")
-):
+async def get_today_matches():
     """Get only today's cricket match threads"""
     try:
-        matches = await match_service.get_today_matches(limit=limit)
+        
+        matches = await match_service.get_today_matches()
+        # Create a dictionary with match_id as key and the latest match as value
+        latest_matches = {}
+        
+        for match in matches:
+            match_id = match.match_id
+            # If we haven't seen this match_id or this one is newer, update it
+            if match_id not in latest_matches or match.created_utc > latest_matches[match_id].created_utc:
+                latest_matches[match_id] = match
+        
+        # Convert to list and sort by created_utc (latest first)
+        unique_matches = sorted(latest_matches.values(), key=lambda x: x.created_utc, reverse=True)
         
         return MatchesResponse(
-            count=len(matches),
-            matches=matches,
+            count=len(unique_matches),
+            matches=unique_matches,
             fetched_at=datetime.now()
-        )
+        )       
+
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

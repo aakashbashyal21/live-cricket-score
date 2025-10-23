@@ -13,8 +13,8 @@ class RedditFetcher:
         self.timeout = aiohttp.ClientTimeout(total=30)
     
     async def fetch_all_matches_async(self) -> List[Dict[str, Any]]:
-        """Fetch ALL matches asynchronously (Reddit API returns 25 by default)"""
-        url = f"{self.base_url}?sort=new"
+        """Fetch ALL matches asynchronously"""
+        url = f"{self.base_url}"
         
         async with aiohttp.ClientSession(timeout=self.timeout) as session:
             async with session.get(url, headers={'User-Agent': self.user_agent}) as response:
@@ -40,7 +40,7 @@ class MatchService:
         self.fetcher = RedditFetcher()
         self.parser = CricketMatchParser()
 
-    async def get_matches(self, limit: int = 10, today_only: bool = False, last_days: Optional[int] = None) -> List[CricketMatch]:
+    async def get_matches(self) -> List[CricketMatch]:
         """Get parsed cricket matches with optional date filtering"""
         try:
             # Fetch ALL posts first
@@ -52,14 +52,14 @@ class MatchService:
                 
                 # Debug info for each post
                 title = post_data.get('title', 'No title')
-                subreddit = post_data.get('subreddit', '').lower()
+                subreddit = post_data.get('subreddit_name_prefixed', '').lower()
                 edited = post_data.get('edited')
                 has_selftext_html = 'selftext_html' in post_data and bool(post_data['selftext_html'])
                 
                 # ALWAYS filter by subreddit=cricket
-                if subreddit != 'cricket':
+                if subreddit != 'r/Cricket'.lower():
                     continue
-                
+
                 if 'selftext_html' in post_data and post_data['selftext_html']:
                     try:
                         match = self.parser.parse_match(
@@ -72,18 +72,12 @@ class MatchService:
                 else:
                     print(f"  -> SKIP: No selftext_html content")
                             
-            if limit > 0:
-                matches = matches[:limit]
-                print(f"DEBUG: After limit - {len(matches)} matches returned")
-            else:
-                print(f"DEBUG: No limit applied - {len(matches)} matches returned")
-            
             return matches
             
         except Exception as e:
             print(f"ERROR: {str(e)}")
             raise Exception(f"Failed to fetch matches: {str(e)}")
     
-    async def get_today_matches(self, limit: int = 10) -> List[CricketMatch]:
-        """Get only today's cricket matches"""
-        return await self.get_matches(limit=limit, today_only=True)
+    async def get_today_matches(self) -> List[CricketMatch]:
+        """Get all cricket matches (no limit)"""
+        return await self.get_matches()
