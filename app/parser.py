@@ -52,10 +52,12 @@ class CricketMatchParser:
             cricinfo_url=cricinfo_url,
         )
 
-        print(f"✅ Parsed match: {match_data.match_title or post_data.get('title')}")
-
         # --- Parse innings tables
         tables = soup.find_all('table')
+
+        # If no tables found, skip further parsing and return the current match data
+        if not tables:
+            return match_data
 
         for table in tables:
             headers = [th.get_text(strip=True).lower() for th in table.find_all('th')]
@@ -131,5 +133,10 @@ class CricketMatchParser:
         paragraphs = soup.find_all('p')
         if len(paragraphs) >= 2:
             match_data.match_status.text = paragraphs[-2].get_text(strip=True)
+
+        if len(match_data.innings) > 0:
+            last_remarks = match_data.innings[-1].remarks
+            if match_data.match_status.text == last_remarks:
+                match_data.match_status.text = None
 
         return match_data
