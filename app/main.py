@@ -60,7 +60,11 @@ async def get_today_matches():
             if match_id not in latest_matches or match.created_utc > latest_matches[match_id].created_utc:
                 latest_matches[match_id] = match
         
-        unique_matches = sorted(latest_matches.values(), key=lambda x: x.created_utc, reverse=True)
+        # Sort: first "Match Thread" flair, then by created_utc descending
+        unique_matches = sorted(
+            latest_matches.values(),
+            key=lambda x: (0 if x.link_flair_text == "Match Thread" else 1, -x.created_utc.timestamp())
+        )
         
         return MatchesResponse(
             count=len(unique_matches),
