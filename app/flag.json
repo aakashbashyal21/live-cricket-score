@@ -1,4 +1,664 @@
 [
+  {
+    "title": "Washington DC Eagles",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/405700/405730.png"
+  },
+  {
+    "title": "Miami Waves",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/405700/405728.png"
+  },
+  {
+    "title": "Houston Riders",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/405700/405726.png"
+  },
+  {
+    "title": "Chicago Windchasers",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/405700/405725.png"
+  },
+  {
+    "title": "Mpumalanga",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327725.png"
+  },
+  {
+    "title": "Border",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327707.png"
+  },
+  {
+    "title": "Uganda Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381856.png"
+  },
+  {
+    "title": "Canada Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381855.png"
+  },
+  {
+    "title": "Western Province Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/378300/378387.png"
+  },
+  {
+    "title": "Titans Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327702.png"
+  },
+  {
+    "title": "Swd D Wmn",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327600/327698.png"
+  },
+  {
+    "title": "Dolphins WMN",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327719.png"
+  },
+  {
+    "title": "United States of America",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381853.png"
+  },
+  {
+    "title": "Nepal",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/319900/319958.png"
+  },
+  {
+    "title": "New Zealand Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png"
+  },
+  {
+    "title": "England Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313261.logo.png"
+  },
+  {
+    "title": "Melbourne Renegades Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313508.logo.png"
+  },
+  {
+    "title": "Sydney Sixers Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313506.logo.png"
+  },
+  {
+    "title": "Adelaide Strikers Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313509.logo.png"
+  },
+  {
+    "title": "Sydney Thunder Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313505.logo.png"
+  },
+  {
+    "title": "Brisbane Heat Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313503.logo.png"
+  },
+  {
+    "title": "Hobart Hurricanes Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313510.logo.png"
+  },
+  {
+    "title": "Scorchers",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313507.logo.png"
+  },
+  {
+    "title": "ACT Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/346400/346438.png"
+  },
+  {
+    "title": "Kowloon CC",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313293.logo.png"
+  },
+  {
+    "title": "Utd Service",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/326800/326840.png"
+  },
+  {
+    "title": "Hong Kong CC",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313287.logo.png"
+  },
+  {
+    "title": "Diasqua",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313512.logo.png"
+  },
+  {
+    "title": "England",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381894.png"
+  },
+  {
+    "title": "New Zealand",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png"
+  },
+  {
+    "title": "Tripura",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313319.logo.png"
+  },
+  {
+    "title": "Haryana",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313304.logo.png"
+  },
+  {
+    "title": "Assam",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313295.logo.png"
+  },
+  {
+    "title": "Services",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327900/327915.jpg"
+  },
+  {
+    "title": "FATA",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390396.png"
+  },
+  {
+    "title": "Faisalabad",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390397.png"
+  },
+  {
+    "title": "New York Liberty",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/405700/405729.png"
+  },
+  {
+    "title": "Las Vegas Aces",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/405700/405727.png"
+  },
+  {
+    "title": "Limpopo",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327500/327591.jpg"
+  },
+  {
+    "title": "South Western Districts",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327600/327698.png"
+  },
+  {
+    "title": "South Africa Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/382700/382733.png"
+  },
+  {
+    "title": "Australia Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+  },
+  {
+    "title": "Melbourne Stars Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313504.logo.png"
+  },
+  {
+    "title": "Australia",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+  },
+  {
+    "title": "India",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381895.png"
+  },
+  {
+    "title": "Otago",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313337.logo.png"
+  },
+  {
+    "title": "Canterbury",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313330.logo.png"
+  },
+  {
+    "title": "Wellington",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313338.logo.png"
+  },
+  {
+    "title": "Central Districts",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313331.logo.png"
+  },
+  {
+    "title": "Northern Districts",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313332.logo.png"
+  },
+  {
+    "title": "Auckland",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313329.logo.png"
+  },
+  {
+    "title": "Knights",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327700.png"
+  },
+  {
+    "title": "Northern Cape",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327710.png"
+  },
+  {
+    "title": "Pakistan Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381891.png"
+  },
+  {
+    "title": "Sri Lanka Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
+  },
+  {
+    "title": "Warriors",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/378300/378380.png"
+  },
+  {
+    "title": "Titans",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327702.png"
+  },
+  {
+    "title": "Western Province",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/378300/378387.png"
+  },
+  {
+    "title": "Dolphins",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327719.png"
+  },
+  {
+    "title": "KwaZulu-Natal Inland",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/378300/378385.png"
+  },
+  {
+    "title": "Boland",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/378300/378388.png"
+  },
+  {
+    "title": "India Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381895.png"
+  },
+  {
+    "title": "Bangladesh",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/341400/341456.png"
+  },
+  {
+    "title": "West Indies",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
+  },
+  {
+    "title": "Perth Scorchers Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313507.logo.png"
+  },
+  {
+    "title": "Strikers",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313509.logo.png"
+  },
+  {
+    "title": "Lions",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/345100/345175.jpg"
+  },
+  {
+    "title": "North West",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/378300/378386.png"
+  },
+  {
+    "title": "Pakistan",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381891.png"
+  },
+  {
+    "title": "South Africa",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/382700/382733.png"
+  },
+  {
+    "title": "Afghanistan",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/381800/381892.png"
+  },
+  {
+    "title": "Zimbabwe",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340503.png"
+  },
+  {
+    "title": "Kabul Knight Riders",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/382000/382024.png"
+  },
+  {
+    "title": "Kabul Zalmi",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/364600/364681.png"
+  },
+  {
+    "title": "Thunder",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313505.logo.png"
+  },
+  {
+    "title": "Faisalabad Region",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390397.png"
+  },
+  {
+    "title": "Multan Region",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390390.png"
+  },
+  {
+    "title": "KR Blues",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390400/390400.png"
+  },
+  {
+    "title": "Sialkot Region",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390386.png"
+  },
+  {
+    "title": "Lahore Region Whites",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390392.png"
+  },
+  {
+    "title": "Abbottabad Region",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390400/390401.png"
+  },
+  {
+    "title": "Islamabad Region",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390394.png"
+  },
+  {
+    "title": "Bangladesh Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/341400/341456.png"
+  },
+  {
+    "title": "Zalm",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/364600/364681.png"
+  },
+  {
+    "title": "Speenghar",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/382100/382103.png"
+  },
+  {
+    "title": "Queensland",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313233.logo.png"
+  },
+  {
+    "title": "South Australia",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390400/390435.png"
+  },
+  {
+    "title": "Western Australia",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313237.logo.png"
+  },
+  {
+    "title": "Tasmania",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313235.logo.png"
+  },
+  {
+    "title": "Victoria",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390400/390439.jpg"
+  },
+  {
+    "title": "New South Wales",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/349300/349350.png"
+  },
+  {
+    "title": "Bahawalpur Region",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390399.png"
+  },
+  {
+    "title": "Peshawar Region",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390389.png"
+  },
+  {
+    "title": "Defenders",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/364600/364680.png"
+  },
+  {
+    "title": "Austria",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/382600/382657.png"
+  },
+  {
+    "title": "Romania",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313205.logo.png"
+  },
+  {
+    "title": "Mpumalanga Women",
+    "flag": ""
+  },
+  {
+    "title": "Free State Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317300/317315.png"
+  },
+  {
+    "title": "Eastern Province Women",
+    "flag": ""
+  },
+  {
+    "title": "Border Women",
+    "flag": ""
+  },
+  {
+    "title": "North West Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/378300/378386.png"
+  },
+  {
+    "title": "Pakistan HKG",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313513.logo.png"
+  },
+  {
+    "title": "Papua New Guinea Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/383200/383206.png"
+  },
+  {
+    "title": "United Arab Emirates Women",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/382100/382186.png"
+  },
+  {
+    "title": "Easterns",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327700/327716.png"
+  },
+  {
+    "title": "Kabul",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/382000/382024.png"
+  },
+  {
+    "title": "Delhi",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313301.logo.png"
+  },
+  {
+    "title": "Hyderabad (India)",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313305.logo.png"
+  },
+  {
+    "title": "Chhattisgarh",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317200/317260.png"
+  },
+  {
+    "title": "Rajasthan",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/389100/389108.png"
+  },
+  {
+    "title": "Mumbai",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317125.png"
+  },
+  {
+    "title": "Jammu & Kashmir",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317300/317303.png"
+  },
+  {
+    "title": "Himachal Pradesh",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313303.logo.png"
+  },
+  {
+    "title": "Puducherry",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313571.logo.png"
+  },
+  {
+    "title": "Gujarat",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317200/317261.png"
+  },
+  {
+    "title": "Karnataka",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Saurashtra",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Punjab",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Madhya Pradesh",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Goa",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Chandigarh",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Maharashtra",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Kerala",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Jharkhand",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Tamil Nadu",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Andhra",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Uttar Pradesh",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Uttarakhand",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Bengal",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Odisha",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Baroda",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Meghalaya",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Mizoram",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Sikkim",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Manipur",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Pamir Stars",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Abasin Defenders",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Band-e Amir Stars",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Samoa",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Japan",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Oman",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Railways",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Vidarbha",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Nagaland",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Arunachal Pradesh",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Bihar",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Qatar",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "United Arab Emirates",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Marylebone Cricket Club",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Zimbabwe Cricket Academy",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Peshawar",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Qld Women",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Karachi Region Blues",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Montreal Royal Tigers",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Brampton Blitz",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Mississauga Masters",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Vancouver Kings",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "White Rock Warriors",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Toronto Sixers",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Norway Women",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Bulgaria Women",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Austria Women",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Khulna Division",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "Rangpur Division",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
+  {
+    "title": "WPR Women",
+    "flag": "https://wassets.hscicdn.com/static/images/lazyimage-transparent.png"
+  },
     {
         "title": "Antigua and Barbuda Falcons",
         "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/379000/379075.png"
