@@ -14,9 +14,13 @@ class Bowler(BaseModel):
     runs: str
     wickets: str
 
-class Innings(BaseModel):
+class InningScore(BaseModel):
     team: str
     score: str
+
+class Innings(BaseModel):
+    inning_score: List[InningScore] = []
+    remarks: Optional[str] = None  # for post-table status
 
 class MatchStatus(BaseModel):
     recent_balls: Optional[str] = None

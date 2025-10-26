@@ -2,6 +2,10 @@ import os
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+import feedparser
+import asyncio
+from typing import Set
+
 from datetime import datetime
 from typing import List, Optional  # Added Optional here
 
@@ -45,29 +49,25 @@ async def health_check():
 
 @app.get("/matches/today", response_model=MatchesResponse)
 async def get_today_matches():
-    """Get only today's cricket match threads"""
+    """Get only today's cricket match threads that exist in Cricinfo RSS feed"""
     try:
-        
         matches = await match_service.get_today_matches()
-        # Create a dictionary with match_id as key and the latest match as value
+
         latest_matches = {}
-        
+
         for match in matches:
             match_id = match.match_id
-            # If we haven't seen this match_id or this one is newer, update it
             if match_id not in latest_matches or match.created_utc > latest_matches[match_id].created_utc:
                 latest_matches[match_id] = match
         
-        # Convert to list and sort by created_utc (latest first)
         unique_matches = sorted(latest_matches.values(), key=lambda x: x.created_utc, reverse=True)
         
         return MatchesResponse(
             count=len(unique_matches),
             matches=unique_matches,
             fetched_at=datetime.now()
-        )       
+        )
 
-        
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

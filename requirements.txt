@@ -5,3 +5,5 @@ requests
 pydantic
 aiohttp
 python-multipart
+feedparser
+asyncio
