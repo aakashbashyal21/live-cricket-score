@@ -1,9 +1,20 @@
 import html
 import re
+import json
 from bs4 import BeautifulSoup
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 from models import CricketMatch, Innings, InningScore, Batter, Bowler, MatchStatus
 
+# --- Load flags JSON globally
+with open('flag.json', 'r', encoding='utf-8') as f:
+    FLAGS = json.load(f)  # Example: [{"title": "England Women", "flag": "..."}]
+
+def get_flag_for_team(team_name: str) -> Optional[str]:
+    """Return the flag URL for a given team name."""
+    for entry in FLAGS:
+        if entry['title'].lower() == team_name.lower():
+            return entry['flag']
+    return None
 
 class CricketMatchParser:
     @staticmethod
@@ -54,8 +65,6 @@ class CricketMatchParser:
 
         # --- Parse innings tables
         tables = soup.find_all('table')
-
-        # If no tables found, skip further parsing and return the current match data
         if not tables:
             return match_data
 
@@ -73,24 +82,27 @@ class CricketMatchParser:
                 while next_tag and next_tag.name == 'p':
                     following_ps.append(next_tag)
                     next_tag = next_tag.find_next_sibling()
-
+                    
                 remarks_text = None
                 if len(following_ps) >= 2:
                     remarks_text = following_ps[0].get_text(strip=True)
 
-                # 🆕 Parse all team/score pairs for this innings block
+                # 🆕 Parse all team/score pairs for this innings block, adding flags
                 inning_scores = []
                 for row in rows:
                     cells = row.find_all('td')
                     if len(cells) >= 2:
+                        team_name = cells[0].get_text(strip=True)
+                        score = cells[1].get_text(strip=True)
+                        flag_url = get_flag_for_team(team_name)
                         inning_scores.append(
                             InningScore(
-                                team=cells[0].get_text(strip=True),
-                                score=cells[1].get_text(strip=True),
+                                team=team_name,
+                                score=score,
+                                flag=flag_url
                             )
                         )
 
-                # 🆕 Create one Innings object for this table
                 match_data.innings.append(
                     Innings(
                         inning_score=inning_scores,

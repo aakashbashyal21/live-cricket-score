@@ -17,6 +17,7 @@ class Bowler(BaseModel):
 class InningScore(BaseModel):
     team: str
     score: str
+    flag: Optional[str] = None
 
 class Innings(BaseModel):
     inning_score: List[InningScore] = []
