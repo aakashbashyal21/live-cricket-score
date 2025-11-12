@@ -1,5 +1,25 @@
 [
   {
+    "title": "Ireland",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313149.logo.png"
+  },
+  {
+    "title": "Punjab",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/369800/369849.png"
+  },
+  {
+    "title": "Sikkim,
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313300/313317.logo.png"
+  },
+  {
+    "title": "Mid West Rhinos",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/318100/318120.png"
+  },
+  {
+    "title": "Qatar",
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/383900/383966.png"
+  },
+  {
     "title": "Washington DC Eagles",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/405700/405730.png"
   },
@@ -74,10 +94,6 @@
   {
     "title": "Adelaide Strikers Women",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313509.logo.png"
-  },
-  {
-    "title": "Sydney Thunder Women",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313505.logo.png"
   },
   {
     "title": "Brisbane Heat Women",
@@ -256,10 +272,6 @@
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
   },
   {
-    "title": "Perth Scorchers Women",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313507.logo.png"
-  },
-  {
     "title": "Strikers",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313509.logo.png"
   },
@@ -314,10 +326,6 @@
   {
     "title": "Sialkot Region",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390386.png"
-  },
-  {
-    "title": "Lahore Region Whites",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390392.png"
   },
   {
     "title": "Abbottabad Region",
@@ -385,7 +393,7 @@
   },
   {
     "title": "Mpumalanga Women",
-    "flag": ""
+    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/327700/327725.png"
   },
   {
     "title": "Free State Women",
@@ -766,14 +774,6 @@
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313509.logo.png"
   },
   {
-    "title": "Sydney Thunder Women",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313505.logo.png"
-  },
-  {
-    "title": "Brisbane Heat Women",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313503.logo.png"
-  },
-  {
     "title": "Hobart Hurricanes Women",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313510.logo.png"
   },
@@ -844,10 +844,6 @@
   {
     "title": "Limpopo",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327500/327591.jpg"
-  },
-  {
-    "title": "South Western Districts",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327600/327698.png"
   },
   {
     "title": "South Africa Women",
@@ -946,10 +942,6 @@
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
   },
   {
-    "title": "Perth Scorchers Women",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313507.logo.png"
-  },
-  {
     "title": "Strikers",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313509.logo.png"
   },
@@ -1006,10 +998,6 @@
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390386.png"
   },
   {
-    "title": "Lahore Region Whites",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390392.png"
-  },
-  {
     "title": "Abbottabad Region",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390400/390401.png"
   },
@@ -1056,10 +1044,6 @@
   {
     "title": "Bahawalpur Region",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390399.png"
-  },
-  {
-    "title": "Peshawar Region",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390389.png"
   },
   {
     "title": "Defenders",
@@ -1226,10 +1210,6 @@
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313505.logo.png"
   },
   {
-    "title": "Brisbane Heat Women",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313503.logo.png"
-  },
-  {
     "title": "Hobart Hurricanes Women",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313500/313510.logo.png"
   },
@@ -1300,10 +1280,6 @@
   {
     "title": "Limpopo",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327500/327591.jpg"
-  },
-  {
-    "title": "South Western Districts",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/327600/327698.png"
   },
   {
     "title": "South Africa Women",
@@ -1490,10 +1466,6 @@
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313233.logo.png"
   },
   {
-    "title": "South Australia",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390400/390435.png"
-  },
-  {
     "title": "Western Australia",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313237.logo.png"
   },
@@ -1512,10 +1484,6 @@
   {
     "title": "Bahawalpur Region",
     "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390399.png"
-  },
-  {
-    "title": "Peshawar Region",
-    "flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/390300/390389.png"
   },
   {
     "title": "Defenders",
